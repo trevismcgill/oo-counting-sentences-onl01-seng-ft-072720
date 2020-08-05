@@ -20,6 +20,7 @@ class String
     split_sent.length
     if split_sent == []
       split_sent.delete
+    end
     # binding.pry
   end
 end
