@@ -18,7 +18,8 @@ class String
     # binding.pry
     split_sent = self.split("." || "!" || "?" || "...")
     split_sent.length
-    split_sent.delete_if == []
+    if split_sent == []
+      split_sent.delete
     # binding.pry
   end
 end
