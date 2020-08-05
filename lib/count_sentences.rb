@@ -22,5 +22,6 @@ class String
       split_sent.delete
     end
     # binding.pry
+    split_sent
   end
 end
