@@ -16,7 +16,11 @@ class String
 
   def count_sentences
     # binding.pry
+    if self == []
+      return
+    else
     split_sent = self.split("." || "!" || "?" || "...")
     split_sent.length
   end
+end
 end
